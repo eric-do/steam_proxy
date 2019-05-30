@@ -23,6 +23,22 @@ app.get('/games/:uid', (req, res) => {
   });
 });
 
+
+app.get('/screenshots', (req, res) => {
+  request(`http://localhost:3002/screenshots`, function (error, response, body) {
+    if (error) { console.log(error); }
+    res.send(body);
+  });
+});
+
+app.get('/videos', (req, res) => {
+  request(`http://localhost:3002/videos`, function (error, response, body) {
+    if (error) { console.log(error); }
+    res.send(body);
+  });
+});
+
+
 // ERIC'S APIS
 app.get('/reviews', (req, res) => {
   console.log('TRYING TO GET REVIEWS');
