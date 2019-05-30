@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body {
+  background: #141e2c;
+  color: #c1dbf4;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+/* div {
+  display: block;
+} */
+
+/* .review-box {
+  margin: 10px 10px 10px 10px;
+} */
+/* .review-box .player-avatar {
+  display: inline-block;
+} */
+
+/* .review-box .num-owned-games {
+  display: block;
+} */
+
+/* .review-box .username a, 
+.review-box .num-owned-games a,
+.review-box .num-reviews a  {
+  color: #c1dbf4;
+} */
+
+/* .review-box .username {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+} */
+
+/* .review-box .num-owned-games a,
+.review-box .num-reviews a  {
+  font-size: 11px;
+} */
+
+
+/* .review-box .player-avatar img {
+  height: 32px;
+  width: 32px;
+} */
+
+/* .vote-header {
+  background: #0e1622; 
+} */
+
+/* .review-box .vote-header .title {
+  font-size: 16px;
+  color: #d6d7d8;
+} */
+
+/* .review-box .vote-header .hours {
+  color: #8091a2;
+  font-size: 11px;
+} */
+
+/* .review-box .right-col .content {
+  color: #acb2b8;
+  font-size: 13px;
+} */
+
+/* .review-box .right-col .posted-date {
+  color: #8091a2;
+  font-size: 10px;
+} */
+
+/* .left-col {
+  width: 30%;
+} */
+
+/* .right-col {
+  width: 70%;
+} */
+
+.left-col,
+.right-col {
+  position: relative;
+  display: inline-block;
+}

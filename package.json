@@ -1,0 +1,26 @@
+{
+  "name": "steam_proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Steam clone",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric-do/steam_proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eric-do/steam_proxy/issues"
+  },
+  "homepage": "https://github.com/eric-do/steam_proxy#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "request": "^2.88.0"
+  }
+}
