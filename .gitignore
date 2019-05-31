@@ -5,3 +5,5 @@ steam_navbar_sidebar/
 steam_recentNews/
 steam_reviews/
 steam_content/
+.env
+package-lock.json

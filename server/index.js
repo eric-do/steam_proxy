@@ -4,6 +4,7 @@ const app = express();
 const port = 3000;
 const parser = require('body-parser');
 var request = require('request');
+require('dotenv').config();
 
 app.use(parser.json());
 app.use(parser.urlencoded({extended: true}));
